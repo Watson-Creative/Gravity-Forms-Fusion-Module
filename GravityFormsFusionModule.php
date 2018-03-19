@@ -1,7 +1,7 @@
 <?php
    /*
    Plugin Name: Gravity Forms Fusion Module
-   Plugin URI: http://www.alextryonpdx.com
+   Plugin URI: https://github.com/Watson-Creative/Gravity-Forms-Fusion-Module
    description: Add module to Fusion Builder to embed gravity forms in posts
    Version: 1.1
    Author: Alex Tryon
