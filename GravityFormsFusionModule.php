@@ -4,14 +4,14 @@
    Plugin URI: https://github.com/Watson-Creative/Gravity-Forms-Fusion-Module
    GitHub Plugin URI: https://github.com/Watson-Creative/Gravity-Forms-Fusion-Module
    description: Add module to Fusion Builder to embed gravity forms in posts
-   Version: 1.1
+   Version: 1.1.1
    Author: Alex Tryon
    Author URI: http://www.alextryonpdx.com
    License: GPL2
    */
 
 function fusion_element_gravityform() {
-
+if( class_exists ('GFAPI')) {
    // get list of forms for select form field
    $forms = GFAPI::get_forms();
    $formList = array();
@@ -62,6 +62,7 @@ function fusion_element_gravityform() {
             ),
         ),
     ) );
+  }
 }
 add_action( 'fusion_builder_before_init', 'fusion_element_gravityform' );
 
