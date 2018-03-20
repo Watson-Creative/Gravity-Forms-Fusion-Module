@@ -2,6 +2,7 @@
    /*
    Plugin Name: Gravity Forms Fusion Module
    Plugin URI: https://github.com/Watson-Creative/Gravity-Forms-Fusion-Module
+   GitHub Plugin URI: https://github.com/Watson-Creative/Gravity-Forms-Fusion-Module
    description: Add module to Fusion Builder to embed gravity forms in posts
    Version: 1.1
    Author: Alex Tryon
